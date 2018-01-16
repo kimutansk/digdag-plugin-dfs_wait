@@ -135,8 +135,6 @@ Artifacts are build on local repos: `./build/repo`.
 ### 2) run an example
 
 ```sh
-digdag selfupdate
-
 rm -rf sample/.digdag/plugin 
 digdag run -a --project sample plugin.dig -p repos=`pwd`/build/repo
 ```
