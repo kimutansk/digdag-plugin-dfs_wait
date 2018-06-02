@@ -138,3 +138,7 @@ Artifacts are build on local repos: `./build/repo`.
 rm -rf sample/.digdag/plugin 
 digdag run -a --project sample plugin.dig -p repos=`pwd`/build/repo
 ```
+
+### License
+
+- License: Apache License, Version 2.0
